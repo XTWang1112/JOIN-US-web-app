@@ -10,11 +10,11 @@ var connection = mysql.createConnection({
 });
 
 //run queries
-var q = "SELECT *  FROM users";
-connection.query(q, function (error, results, fields) {
-  if (error) throw error;
-  console.log(results);
-});
+// var q = "SELECT *  FROM users";
+// connection.query(q, function (error, results, fields) {
+//   if (error) throw error;
+//   console.log(results);
+// });
 
 // insert data
 // var person1 = {email: faker.internet.email()};
